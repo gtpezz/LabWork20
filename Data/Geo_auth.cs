@@ -8,4 +8,5 @@ public class Geo_auth
     public string? Password { get; set; }
 
     public void GetUserLocation() => Console.WriteLine(Geo);
+    public void GetLogin() => Console.WriteLine(Login);
 }
