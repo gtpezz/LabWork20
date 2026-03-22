@@ -9,4 +9,5 @@ public class Geo_auth
 
     public void GetUserLocation() => Console.WriteLine(Geo);
     public void GetLogin() => Console.WriteLine(Login);
+    public void GetInformation() => Console.WriteLine("Some information");
 }
