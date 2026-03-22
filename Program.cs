@@ -16,6 +16,9 @@ if (app.Environment.IsDevelopment())
 app.MapScalarApiReference();
 app.UseAuthorization();
 
+Console.WriteLine("Logging");
+Console.WriteLine("some thing");
+
 app.MapControllers();
 
 app.Run();
